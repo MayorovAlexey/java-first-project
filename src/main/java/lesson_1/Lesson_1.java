@@ -4,10 +4,10 @@ public class Lesson_1 {
     public static void main(String[] args) {
 
         greetings();
-        checkSign(1,2, 5);
+        checkSign(5,6, 9);
         selectColor();
         compareNumbers();
-        addOrSubtractAndPrint(3,6,true);
+        addOrSubtractAndPrint(8,3,true);
 
     }
 
@@ -27,12 +27,12 @@ public class Lesson_1 {
     }
 
     public static void selectColor() {
-        int data = 10;
+        int data = 25;
         if (data <= 10) { // Если data меньше 10 включительно, то в консоль должно быть выведено сообщение “Красный”
             System.out.println(" Красный ");
         } else if (data >= 11 && data <= 20) { // если от 10 до 20 включительно, то “Желтый”
             System.out.println(" Желтый ");
-        } else if (data >= 21) { // если больше 20 - “Зеленый”
+        } else { // если больше 20 - “Зеленый”
             System.out.println(" Зеленый ");
 
         }
@@ -41,7 +41,7 @@ public class Lesson_1 {
 
     public static void compareNumbers() {
         int a = 10;
-        int b = 13;
+        int b = 15;
         if (a >= b) {
             System.out.println(a + " >= " + b + " | a >= b ");
         } else {
