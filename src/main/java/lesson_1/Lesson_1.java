@@ -4,12 +4,12 @@ public class Lesson_1 {
     public static void main(String[] args) {
 
         greetings();
-        checkSign(4,5, 6);
+        checkSign(4,5,6);
         selectColor();
         compareNumbers();
-        addOrSubtractAndPrint(5,7,true);
-
+        addOrSubtractAndPrint( int 4, int 5,boolean true);
     }
+}
 
     public static void greetings() { // при вызове должен отпечатать в столбец 4 слова: Hello, World, from, Java;
         System.out.print(" Hello \n" + " world \n" + " From \n" + " Java \n");
@@ -51,7 +51,9 @@ public class Lesson_1 {
     }
 
     public static void addOrSubtractAndPrint(int initValue, int delta, boolean increment) {
-        if (increment = true) {
+
+                if (increment == true) {
+        }
             System.out.println(initValue + delta + " - результат сложения ");
         } else {
             System.out.println(initValue - delta + " - результат вычитания ");
