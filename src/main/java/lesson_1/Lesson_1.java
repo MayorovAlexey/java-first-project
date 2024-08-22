@@ -7,7 +7,7 @@ public class Lesson_1 {
         checkSign(4,5,6);
         selectColor();
         compareNumbers();
-        addOrSubtractAndPrint( int 4,boolean 5,boolean true);
+        addOrSubtractAndPrint( int 4, int 5,boolean true);
     }
 }
 
