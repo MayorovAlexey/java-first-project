@@ -8,7 +8,6 @@ public class Lesson_1 {
         selectColor();
         compareNumbers();
         addOrSubtractAndPrint(5,7,true);
-
     }
 
     public static void greetings() { // при вызове должен отпечатать в столбец 4 слова: Hello, World, from, Java;
